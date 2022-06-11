@@ -1,0 +1,100 @@
+BLANK
+CARDNAME enters the battlefield tapped POINT  NEWLINE  LCBRACE T RCBRACE  COLON  Add  LCBRACE W RCBRACE  POINT  NEWLINE  LCBRACE T RCBRACE  COMMA  Sacrifice CARDNAME COLON  Add one mana of any color POINT 
+You may cast nonland cards with cycling from your graveyard POINT  NEWLINE If a card with cycling would be put into your graveyard from anywhere and it wasn APOSTROPHE t cycled COMMA  exile it instead POINT 
+As an additional cost to cast this spell COMMA  discard X cards POINT  NEWLINE Look at target opponent APOSTROPHE s hand and choose X cards from it POINT  That player discards those cards POINT 
+Up to two target creatures each get  PLUS 1 SLASH  PLUS 0 and gain first strike until end of turn POINT  NEWLINE Madness  LCBRACE 1 RCBRACE  LCBRACE R RCBRACE   LCBRACKET If you discard this card COMMA  discard it into exile POINT  When you do COMMA  cast it for its madness cost or put it into your graveyard POINT  RBRACKET 
+First strike NEWLINE Whenever a creature dealt damage by CARDNAME this turn dies COMMA  you gain life equal to that creature APOSTROPHE s toughness POINT 
+Flying COMMA  protection from red
+Flying COMMA  vigilance
+ LCBRACE W RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  CARDNAME gets  PLUS 0 SLASH  PLUS 3 until end of turn POINT 
+Prowess  LCBRACKET Whenever you cast a noncreature spell COMMA  this creature gets  PLUS 1 SLASH  PLUS 1 until end of turn POINT  RBRACKET  NEWLINE When CARDNAME enters the battlefield COMMA  exile the top card of your library POINT  Until end of turn COMMA  you may play that card POINT 
+Enchant creature NEWLINE When CARDNAME enters the battlefield COMMA  untap enchanted creature POINT  NEWLINE You control enchanted creature POINT  NEWLINE When enchanted creature dies COMMA  return that card to the battlefield under its owner APOSTROPHE s control POINT 
+Flying NEWLINE At the beginning of your upkeep COMMA  put the top card of your library into your graveyard POINT  If it APOSTROPHE s an instant or sorcery card COMMA  transform CARDNAME POINT  Flying 
+Until end of turn COMMA  target player can APOSTROPHE t cast instant or sorcery spells COMMA  and that player can APOSTROPHE t activate abilities that aren APOSTROPHE t mana abilities POINT  NEWLINE Draw a card POINT 
+Flying NEWLINE When CARDNAME enters the battlefield COMMA  create a number of 1 SLASH 1 black Harpy creature tokens with flying equal to your devotion to black POINT   LCBRACKET Each  LCBRACE B RCBRACE  in the mana costs of permanents you control counts toward your devotion to black POINT  RBRACKET  NEWLINE At the beginning of your upkeep COMMA  sacrifice a creature POINT 
+As an additional cost to cast this spell COMMA  sacrifice a blue permanent POINT  NEWLINE Counter target spell POINT 
+Until end of turn COMMA  target creature gets  PLUS 2 SLASH  PLUS 0 and gains "When this creature dies COMMA  return it to the battlefield tapped under its owner APOSTROPHE s control POINT "
+You may discard a Plains card rather than pay this spell APOSTROPHE s mana cost POINT  NEWLINE Destroy target artifact or enchantment POINT 
+Flying NEWLINE Whenever CARDNAME deals combat damage to a player COMMA  you may draw a card POINT  If you do COMMA  discard a card POINT  NEWLINE Morph  LCBRACE 2 RCBRACE  LCBRACE B RCBRACE  LCBRACE G RCBRACE  LCBRACE U RCBRACE   LCBRACKET You may cast this card face down as a 2 SLASH 2 creature for  LCBRACE 3 RCBRACE  POINT  Turn it face up any time for its morph cost POINT  RBRACKET 
+Whenever CARDNAME blocks or becomes blocked by a green or white creature COMMA  destroy that creature at end of combat POINT 
+Cumulative upkeep DASH Put a  MINUS 1 SLASH  MINUS 1 counter on CARDNAME POINT   LCBRACKET At the beginning of your upkeep COMMA  put an age counter on this permanent COMMA  then sacrifice it unless you pay its upkeep cost for each age counter on it POINT  RBRACKET 
+Tap an untapped Cephalid you control COLON  Tap target permanent POINT  NEWLINE  LCBRACE U RCBRACE  LCBRACE U RCBRACE  LCBRACE U RCBRACE  COLON  Tap all creatures without flying POINT 
+Enchant creature NEWLINE Enchanted creature has flying POINT  NEWLINE Threshold  DASH  Enchanted creature has shroud as long as seven or more cards are in your graveyard POINT   LCBRACKET It can APOSTROPHE t be the target of spells or abilities POINT  RBRACKET 
+Switch target creature APOSTROPHE s power and toughness until end of turn POINT 
+Choose one  DASH  NEWLINE  CARDNAME deals 3 damage to target creature POINT  NEWLINE  Destroy target artifact POINT 
+This spell can APOSTROPHE t be countered POINT  NEWLINE Destroy target nonland permanent with converted mana cost 3 or less POINT 
+All creatures have protection from black POINT 
+All creatures have protection from red POINT 
+Haunt  LCBRACKET When this creature dies COMMA  exile it haunting target creature POINT  RBRACKET  NEWLINE When CARDNAME enters the battlefield or the creature it haunts dies COMMA  destroy target enchantment POINT 
+Counter target spell POINT  You gain 3 life POINT 
+Target player loses 4 life and you gain 4 life POINT  NEWLINE Basic landcycling  LCBRACE 1 RCBRACE  LCBRACE B RCBRACE   LCBRACKET  LCBRACE 1 RCBRACE  LCBRACE B RCBRACE  COMMA  Discard this card COLON  Search your library for a basic land card COMMA  reveal it COMMA  put it into your hand COMMA  then shuffle your library POINT  RBRACKET 
+Devoid  LCBRACKET This card has no color POINT  RBRACKET  NEWLINE Counter target spell unless its controller pays  LCBRACE 1 RCBRACE  POINT  You create a 1 SLASH 1 colorless Eldrazi Scion creature token POINT  It has "Sacrifice this creature COLON  Add  LCBRACE C RCBRACE  POINT "  LCBRACKET  LCBRACE C RCBRACE  represents colorless mana POINT  RBRACKET 
+When CARDNAME dies COMMA  destroy all creatures blocking or blocked by it POINT  They can APOSTROPHE t be regenerated POINT 
+ LCBRACE T RCBRACE  COLON  Prevent the next 1 damage that would be dealt to any target this turn POINT  NEWLINE  LCBRACE T RCBRACE  COLON  Prevent the next 2 damage that would be dealt to target artifact creature this turn POINT 
+Choose one  DASH  NEWLINE  You gain 5 life POINT  NEWLINE  Prevent the next 5 damage that would be dealt to target creature this turn POINT  NEWLINE Entwine  LCBRACE 2 RCBRACE   LCBRACKET Choose both if you pay the entwine cost POINT  RBRACKET 
+If you would draw a card COMMA  you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind POINT  Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order POINT 
+Enchant land NEWLINE When CARDNAME enters the battlefield COMMA  draw a card POINT  NEWLINE Enchanted land has " LCBRACE T RCBRACE  COLON  Add one mana of any color POINT "
+Emerge  LCBRACE 6 RCBRACE  LCBRACE B RCBRACE   LCBRACKET You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature APOSTROPHE s converted mana cost POINT  RBRACKET  NEWLINE When you cast this spell COMMA  target opponent loses 3 life and you gain 3 life POINT 
+When CARDNAME dies COMMA  each player sacrifices a creature POINT 
+Flying NEWLINE When CARDNAME enters the battlefield COMMA  target player discards two cards POINT 
+ LCBRACE B RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  Tap target creature POINT  CARDNAME deals damage equal to CARDNAME APOSTROPHE s power to that creature POINT 
+Whenever CARDNAME attacks and isn APOSTROPHE t blocked COMMA  defending player discards a card POINT 
+Whenever an opponent discards a card COMMA  CARDNAME gets  PLUS 2 SLASH  PLUS 2 and gains fear until end of turn POINT   LCBRACKET It can APOSTROPHE t be blocked except by artifact creatures and SLASH or black creatures POINT  RBRACKET 
+Flying COMMA  trample NEWLINE You can APOSTROPHE t win the game and your opponents can APOSTROPHE t lose the game POINT 
+Flying NEWLINE Whenever CARDNAME deals damage to a player COMMA  that player discards a card POINT 
+Target player sacrifices an enchantment POINT  Bolster 1 POINT   LCBRACKET Choose a creature with the least toughness among creatures you control and put a  PLUS 1 SLASH  PLUS 1 counter on it POINT  RBRACKET 
+When CARDNAME enters the battlefield COMMA  put a  PLUS 1 SLASH  PLUS 1 counter on each creature you control POINT  NEWLINE Whenever a nontoken creature you control dies COMMA  create a 1 SLASH 1 white Spirit creature token with flying POINT 
+ LCBRACE T RCBRACE  COLON  Add  LCBRACE W RCBRACE  COMMA   LCBRACE B RCBRACE  COMMA  or  LCBRACE G RCBRACE  POINT  NEWLINE  LCBRACE W RCBRACE  LCBRACE B RCBRACE  LCBRACE G RCBRACE  COMMA   LCBRACE T RCBRACE  COMMA  Sacrifice CARDNAME COLON  Draw a card POINT 
+Outlast  LCBRACE W RCBRACE   LCBRACKET  LCBRACE W RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  Put a  PLUS 1 SLASH  PLUS 1 counter on this creature POINT  Outlast only as a sorcery POINT  RBRACKET  NEWLINE Each creature you control with a  PLUS 1 SLASH  PLUS 1 counter on it has lifelink POINT 
+At the beginning of your upkeep COMMA  draw a card if you control the creature with the greatest toughness or tied for the greatest toughness POINT 
+Choose one  DASH  NEWLINE  Exile target creature with power 3 or greater POINT  NEWLINE  You draw two cards and you lose 2 life POINT  NEWLINE  Distribute two  PLUS 1 SLASH  PLUS 1 counters among one or two target creatures POINT 
+Outlast  LCBRACE W RCBRACE   LCBRACKET  LCBRACE W RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  Put a  PLUS 1 SLASH  PLUS 1 counter on this creature POINT  Outlast only as a sorcery POINT  RBRACKET  NEWLINE Each creature you control with a  PLUS 1 SLASH  PLUS 1 counter on it has flying POINT 
+Lifelink  LCBRACKET Damage dealt by this creature also causes you to gain that much life POINT  RBRACKET  NEWLINE Morph  LCBRACE 2 RCBRACE  LCBRACE W RCBRACE  LCBRACE B RCBRACE  LCBRACE G RCBRACE   LCBRACKET You may cast this card face down as a 2 SLASH 2 creature for  LCBRACE 3 RCBRACE  POINT  Turn it face up any time for its morph cost POINT  RBRACKET 
+CARDNAME has lifelink as long as you control a white or black permanent POINT 
+Enchant creature NEWLINE Enchanted creature gets  PLUS 2 SLASH  PLUS 2 POINT  NEWLINE Enchanted creature has vigilance as long as you control a black or green permanent POINT 
+Flying NEWLINE When CARDNAME dies COMMA  bolster 2 POINT   LCBRACKET Choose a creature with the least toughness among creatures you control and put two  PLUS 1 SLASH  PLUS 1 counters on it POINT  RBRACKET 
+At the beginning of your end step COMMA  if you have no cards in hand COMMA  draw seven cards POINT  NEWLINE Whenever you roll  LCBRACE CHAOS RCBRACE  COMMA  discard your hand POINT 
+Flying NEWLINE Kicker  LCBRACE 4 RCBRACE   LCBRACKET You may pay an additional  LCBRACE 4 RCBRACE  as you cast this spell POINT  RBRACKET  NEWLINE If CARDNAME was kicked COMMA  it enters the battlefield with two  PLUS 1 SLASH  PLUS 1 counters on it POINT 
+CARDNAME enters the battlefield with X  PLUS 1 SLASH  PLUS 1 counters on it COMMA  where X is the number of instant and sorcery cards in all graveyards POINT  NEWLINE  LCBRACE 2 RCBRACE  LCBRACE U RCBRACE  COMMA  Remove a  PLUS 1 SLASH  PLUS 1 counter from CARDNAME COLON  Draw a card COMMA  then discard a card POINT 
+This spell costs  LCBRACE 1 RCBRACE  less to cast if you control a Wizard POINT  NEWLINE When CARDNAME enters the battlefield COMMA  return target creature an opponent controls to its owner APOSTROPHE s hand POINT 
+Intimidate  LCBRACKET This creature can APOSTROPHE t be blocked except by artifact creatures and SLASH or creatures that share a color with it POINT  RBRACKET  NEWLINE Whenever CARDNAME deals combat damage to a player COMMA  you may discard a card POINT  If you do COMMA  draw a card POINT 
+When CARDNAME dies COMMA  you may exile it POINT  If you do COMMA  search your library for an enchantment card COMMA  put that card onto the battlefield COMMA  then shuffle your library POINT 
+When CARDNAME enters the battlefield COMMA  you may put an Aura card from your hand onto the battlefield attached to CARDNAME POINT 
+ LCBRACE T RCBRACE  COLON  Add  LCBRACE C RCBRACE  POINT  NEWLINE  LCBRACE 1 RCBRACE  LCBRACE U RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  Put target artifact card from your graveyard on top of your library POINT 
+Target creature gets  PLUS X SLASH  PLUS X until end of turn COMMA  where X is the highest converted mana cost among permanents you control POINT 
+Target creature gains haste until end of turn POINT  NEWLINE Draw a card POINT 
+As an additional cost to cast this spell COMMA  discard a card at random POINT  NEWLINE CARDNAME deals 5 damage to target creature POINT 
+Fabricate 1  LCBRACKET When this creature enters the battlefield COMMA  put a  PLUS 1 SLASH  PLUS 1 counter on it or create a 1 SLASH 1 colorless Servo artifact creature token POINT  RBRACKET 
+Battle cry  LCBRACKET Whenever this creature attacks COMMA  each other attacking creature gets  PLUS 1 SLASH  PLUS 0 until end of turn POINT  RBRACKET 
+Equipped creature gets  PLUS 0 SLASH  PLUS 3 and has vigilance POINT   LCBRACKET Attacking doesn APOSTROPHE t cause it to tap POINT  RBRACKET  NEWLINE Equip  LCBRACE 3 RCBRACE   LCBRACKET  LCBRACE 3 RCBRACE  COLON  Attach to target creature you control POINT  Equip only as a sorcery POINT  RBRACKET 
+Draw a card COMMA  then draw cards equal to the number of cards named CARDNAME in all graveyards POINT 
+When CARDNAME enters the battlefield COMMA  sacrifice a creature POINT 
+ LCBRACE 1 RCBRACE  LCBRACE B RCBRACE  COLON  Target attacking Zombie gains indestructible until end of turn POINT   LCBRACKET Damage and effects that say "destroy" don APOSTROPHE t destroy it POINT  If its toughness is 0 or less COMMA  it APOSTROPHE s still put into its owner APOSTROPHE s graveyard POINT  RBRACKET 
+Intimidate  LCBRACKET This creature can APOSTROPHE t be blocked except by artifact creatures and SLASH or creatures that share a color with it POINT  RBRACKET 
+Spells your opponents cast that target CARDNAME cost  LCBRACE 1 RCBRACE  less to cast POINT  NEWLINE When CARDNAME dies COMMA  return it to the battlefield transformed under your control attached to target opponent POINT  Spells you cast that target enchanted player cost  LCBRACE 1 RCBRACE  less to cast POINT  NEWLINE At the beginning of enchanted player APOSTROPHE s upkeep COMMA  that player loses 1 life and you gain 1 life POINT 
+ LCBRACE 4 RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  Whenever target creature deals combat damage to a non MINUS Wall creature this turn COMMA  destroy that non MINUS Wall creature POINT  When the targeted creature leaves the battlefield this turn COMMA  sacrifice CARDNAME POINT  Activate this ability only before blockers are declared POINT 
+Deathtouch  LCBRACKET Any amount of damage this deals to a creature is enough to destroy it POINT  RBRACKET  NEWLINE When CARDNAME enters the battlefield COMMA  destroy target artifact COMMA  enchantment COMMA  or land POINT 
+All Slivers have " LCBRACE 2 RCBRACE  COMMA  Sacrifice this permanent COLON  This permanent deals 2 damage to any target POINT "
+CARDNAME deals damage to each player equal to the number of lands they control POINT 
+Destroy all Forests POINT 
+Flying COMMA  deathtouch NEWLINE Megamorph  LCBRACE 5 RCBRACE  LCBRACE B RCBRACE  LCBRACE B RCBRACE   LCBRACKET You may cast this card face down as a 2 SLASH 2 creature for  LCBRACE 3 RCBRACE  POINT  Turn it face up any time for its megamorph cost and put a  PLUS 1 SLASH  PLUS 1 counter on it POINT  RBRACKET  NEWLINE When CARDNAME is turned face up COMMA  put a  PLUS 1 SLASH  PLUS 1 counter on each other Dragon creature you control POINT 
+Reach NEWLINE When CARDNAME enters the battlefield COMMA  you may destroy target Equipment POINT 
+Renown 1  LCBRACKET When this creature deals combat damage to a player COMMA  if it isn APOSTROPHE t renowned COMMA  put a  PLUS 1 SLASH  PLUS 1 counter on it and it becomes renowned POINT  RBRACKET  NEWLINE Whenever CARDNAME becomes blocked by a creature COMMA  it deals 2 damage to that creature POINT 
+ LCBRACE 1 RCBRACE  LCBRACE B RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  Target player loses 1 life POINT 
+Prevent the next X damage that would be dealt to target creature this turn COMMA  where X is your devotion to white POINT  If damage is prevented this way COMMA  CARDNAME deals that much damage to any target POINT   LCBRACKET Each  LCBRACE W RCBRACE  in the mana costs of permanents you control counts toward your devotion to white POINT  RBRACKET 
+ LCBRACE 1 RCBRACE  COMMA   LCBRACE T RCBRACE  COLON  CARDNAME deals 1 damage to any target POINT  That permanent APOSTROPHE s controller or that player creates a 1 SLASH 1 green Squirrel creature token POINT 
+Create two 1 SLASH 1 green Squirrel creature tokens POINT  NEWLINE Flashback DASH  LCBRACE 1 RCBRACE  LCBRACE G RCBRACE  COMMA  Pay 3 life POINT   LCBRACKET You may cast this card from your graveyard for its flashback cost POINT  Then exile it POINT  RBRACKET 
+Search target opponent APOSTROPHE s library for an artifact card and put that card onto the battlefield under your control POINT  Then that player shuffles their library POINT 
+Echo  LCBRACE 1 RCBRACE  LCBRACE G RCBRACE   LCBRACKET At the beginning of your upkeep COMMA  if this came under your control since the beginning of your last upkeep COMMA  sacrifice it unless you pay its echo cost POINT  RBRACKET 
+Exile target creature you control COMMA  then return that card to the battlefield under its owner APOSTROPHE s control POINT  NEWLINE Draw a card POINT 
+Choose one  DASH  NEWLINE  Destroy target blue permanent POINT  NEWLINE  Return target Island to its owner APOSTROPHE s hand POINT 
+ LCBRACKET  LCBRACE R SLASH P RCBRACE  can be paid with either  LCBRACE R RCBRACE  or 2 life POINT  RBRACKET  NEWLINE Gain control of target creature an opponent controls until end of turn POINT  Untap that creature POINT  It gains haste until end of turn POINT 
+When CARDNAME enters the battlefield COMMA  you may exile target artifact or enchantment POINT  NEWLINE At the beginning of your upkeep COMMA  you may exile target artifact or enchantment POINT  If you do COMMA  its controller gains control of CARDNAME POINT 
+Untap target creature POINT  It gets  PLUS 2 SLASH  PLUS 2 until end of turn and can block an additional creature this turn POINT 
+Gain control of target creature until end of turn POINT  Untap that creature POINT  It gains haste until end of turn POINT   LCBRACKET It can attack and  LCBRACE T RCBRACE  this turn POINT  RBRACKET 
+Exile the top three cards of your library POINT  Until end of turn COMMA  you may play cards exiled this way POINT   LCBRACKET If you cast a spell this way COMMA  you still pay its costs POINT  You can play a land this way only if you have an available land play remaining POINT  RBRACKET 
+Target creature gets  PLUS 2 SLASH  PLUS 2 and gains indestructible until end of turn POINT   LCBRACKET Damage and effects that say "destroy" don APOSTROPHE t destroy it POINT  RBRACKET 
+CARDNAME APOSTROPHE s power and toughness are each equal to the number of cards in the hand of the opponent with the most cards in hand POINT 
+As long as CARDNAME is attacking COMMA  it gets  PLUS 2 SLASH  PLUS 0 POINT  NEWLINE Pay 4 life COLON  CARDNAME gains indestructible until end of turn POINT   LCBRACKET Damage and effects that say "destroy" don APOSTROPHE t destroy it POINT  RBRACKET 
+As CARDNAME enters the battlefield COMMA  choose a creature type POINT  NEWLINE CARDNAME is the chosen type in addition to its other types POINT  NEWLINE Other creatures you control of the chosen type get  PLUS 1 SLASH  PLUS 1 POINT 
+Evolve  LCBRACKET Whenever a creature enters the battlefield under your control COMMA  if that creature has greater power or toughness than this creature COMMA  put a  PLUS 1 SLASH  PLUS 1 counter on this creature POINT  RBRACKET 

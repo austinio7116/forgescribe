@@ -1,0 +1,18 @@
+#!/bin/bash
+stringin=`cat <&0`
+echo $stringin > /tmp/stream
+
+declare -a strings=("," "\." "\+" ":" "\$" "{" "}" "<" ">" "\/" "(" ")" "'" "—" "-" "\"" "_" "\\\\" "\&" "\[" "\]")
+declare -a tokens=("COMMA" "POINT" "PLUS" "COLON" "DOLLAR" "LBRACE" "RBRACE" "LESSTHAN" "GREATERTHAN" "SLASH" "LPARENTHESIS" "RPARENTHESIS" "APOSTROPHE" "DASH" "MINUS" "DOUBLEQUOTE" "UNDERSCORE" "BACKSLSH" "AMPERSAND" "LSQUAREBR" "RSQUAREBR")
+# get length of an array
+arraylength=${#strings[@]}
+echo -n "" > /tmp/streamb
+# use for loop to read all values and indexes
+for (( i=0; i<${arraylength}; i++ ));
+do
+	str=${strings[$i]}
+	tok=${tokens[$i]}
+	cat /tmp/stream | sed -r "s/ *SPC${tok}SPC */SPC${tok}SPC/g" | sed -r "s/ *SPC${tok} */SPC$str/g" | sed -r "s/ *${tok}SPC */${str}SPC/g" | sed -r "s/ *$tok */$str/g" > /tmp/streamb
+	cat /tmp/streamb > /tmp/stream
+done
+cat /tmp/stream | sed "s/PIPE/|/g" | sed "s/SPC/ /g" | sed "s/ *NEWLINE */\\n/g" #| sed "s/<s> *//g" | sed "s/ *<\.s>//g"

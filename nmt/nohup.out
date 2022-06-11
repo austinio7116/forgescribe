@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 163, in _run_module_as_main
+    mod_name, _Error)
+  File "/usr/lib/python2.7/runpy.py", line 102, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "nmt.py", line 28, in <module>
+    from . import inference
+ValueError: Attempted relative import in non-package

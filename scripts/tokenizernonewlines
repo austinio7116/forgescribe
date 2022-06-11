@@ -1,0 +1,29 @@
+#!/bin/bash
+stringin=`cat <&0`
+echo $stringin > /tmp/stream
+
+declare -a strings=("," "\." "+" ":" "\$" "{" "}" "<" ">" "\/" "(" ")" "'" "−" "\-" "\"" "_" "\\\\" "\&")
+declare -a tokens=("COMMA" "POINT" "PLUS" "COLON" "DOLLAR" "LBRACE" "RBRACE" "LESSTHAN" "GREATERTHAN" "SLASH" "LPARENTHESIS" "RPARENTHESIS" "APOSTROPHE" "DASH" "MINUS" "DOUBLEQUOTE" "UNDERSCORE" "BACKSLSH" "AMPERSAND")
+# get length of an array
+arraylength=${#strings[@]}
+echo -n "" > /tmp/streamb
+# use for loop to read all values and indexes
+for (( i=0; i<${arraylength}; i++ ));
+do
+	str=${strings[$i]}
+	tok=${tokens[$i]}
+	cat /tmp/stream | sed "s/\([^ ]\)$str\([^ ]\)/\1${tok}\2/g" | sed "s/ $str\([^ ]\)/SP${tok}\1/g" | sed "s/\([^ ]\)$str /\1${tok}SP/g" > /tmp/streamb
+	cat /tmp/streamb > /tmp/stream
+	#deal with start and end of string
+	cat /tmp/stream | sed "s/^$str\([^ ]\)/${tok}\1/g" | sed "s/^$str /${tok}SP/g" > /tmp/streamb
+        cat /tmp/streamb > /tmp/stream
+	cat /tmp/stream | sed "s/ $str$/SP${tok}/g" | sed "s/\([^ ]\)$str$/\1${tok}/g" > /tmp/streamb
+        cat /tmp/streamb > /tmp/stream
+done
+for (( i=0; i<${arraylength}; i++ ));
+do
+        tok=${tokens[$i]}
+        cat /tmp/stream | sed -r "s/((SP${tok})|(${tok}SP)|(${tok}))/ \1 /g" > /tmp/streamb
+        cat /tmp/streamb > /tmp/stream
+done
+cat /tmp/stream | sed "s/|/PIPE/g" | sed "s///g" | sed "s/^$/BLANK/g" | sed "s/null/BLANK/g"
