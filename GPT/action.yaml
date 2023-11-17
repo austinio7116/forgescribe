@@ -1,0 +1,220 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Scryfall API",
+    "version": "1.0.0",
+    "description": "API for accessing Magic The Gathering card information from Scryfall."
+  },
+  "servers": [
+    {
+      "url": "https://api.scryfall.com"
+    }
+  ],
+  "paths": {
+    "/cards/named": {
+      "get": {
+        "operationId": "getCardByName",
+        "summary": "Retrieve a Magic The Gathering card information by name.",
+        "description": "Fetches Magic The Gathering card details in JSON format based on the card's name.",
+        "parameters": [
+          {
+            "name": "fuzzy",
+            "in": "query",
+            "required": false,
+            "description": "A fuzzy string of a card name to search for.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "exact",
+            "in": "query",
+            "required": false,
+            "description": "An exact string of a card name to search for.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response with card information in JSON format.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "mana_cost": {
+                      "type": "string"
+                    },
+                    "cmc": {
+                      "type": "number",
+                      "format": "double"
+                    },
+                    "type_line": {
+                      "type": "string"
+                    },
+                    "oracle_text": {
+                      "type": "string"
+                    },
+                    "power": {
+                      "type": "string"
+                    },
+                    "toughness": {
+                      "type": "string"
+                    },
+                    "colors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "color_identity": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "legalities": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "image_uris": {
+                      "type": "object",
+                      "properties": {
+                        "png": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Card not found."
+          }
+        }
+      }
+    },
+    "/cards/search": {
+      "get": {
+        "operationId": "searchCardsByAbility",
+        "summary": "Search for Magic The Gathering cards with similar abilities.",
+        "description": "Allows searching for cards based on oracle text, type, mana cost, etc., to find cards with similar abilities.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "description": "Search query using Scryfall\u2019s full-text search engine.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "unique",
+            "in": "query",
+            "required": false,
+            "description": "Controls how to consider identical cards. Options are 'cards', 'art', or 'prints'.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "order",
+            "in": "query",
+            "required": false,
+            "description": "Sort order. Options include 'name', 'set', etc.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dir",
+            "in": "query",
+            "required": false,
+            "description": "Sort direction. Options are 'asc' or 'desc'.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response with a list of cards matching the search criteria.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  },
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "mana_cost": {
+                      "type": "string"
+                    },
+                    "cmc": {
+                      "type": "number",
+                      "format": "double"
+                    },
+                    "type_line": {
+                      "type": "string"
+                    },
+                    "oracle_text": {
+                      "type": "string"
+                    },
+                    "power": {
+                      "type": "string"
+                    },
+                    "toughness": {
+                      "type": "string"
+                    },
+                    "colors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "color_identity": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "legalities": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "image_uris": {
+                      "type": "object",
+                      "properties": {
+                        "png": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No cards found matching the criteria."
+          }
+        }
+      }
+    }
+  }
+}
